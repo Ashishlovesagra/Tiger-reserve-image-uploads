@@ -1,0 +1,6 @@
+# Ignore environment variables
+node_modules/
+package-lock.json/
+.env
+# Ignore service account key
+Key.json
