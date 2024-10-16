@@ -2,8 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const fileRoutes = require('./routes/fileRoutes');
 const dotenv = require('dotenv');
-const path = require('path'); // Add this
-
+const path = require('path'); 
 dotenv.config();
 
 const app = express();
@@ -16,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded({ extended: true })); // For parsing form data
+app.use(express.urlencoded({ extended: true })); 
 
 // Routes
 app.use('/api/files', fileRoutes);
@@ -26,7 +25,6 @@ app.get('/', (req, res) => {
   res.render('upload');
 });
 
-// Start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
