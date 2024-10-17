@@ -19,8 +19,8 @@ Follow the steps below to run this project on your local machine:
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone (https://github.com/Ashishlovesagra/Tiger-reserve-image-uploads.git)
+   cd Tiger-reserve-image-uploads
    ```
 
 2. **Install dependencies**
