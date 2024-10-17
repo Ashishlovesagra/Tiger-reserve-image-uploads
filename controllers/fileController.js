@@ -1,4 +1,3 @@
-// controllers/fileController.js
 const { bucket } = require('../config/gcs');
 
 const uploadFile = async (req, res) => {
