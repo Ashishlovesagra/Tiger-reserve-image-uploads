@@ -123,3 +123,7 @@ Renders the file upload form on the browser.
 3. Error Handling:
 
     - If an error occurs during upload (e.g., no file provided), the user is notified with an error message.
+
+## License
+
+This project is licensed under the Ashish Kumar Singh.
